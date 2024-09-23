@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 170px; /* Adjust the size as needed */
+    height: 170px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #fff; /* Optional: adds a white border around the image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+    text-align: center;
+}
+
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #4CAF50;
+}
+
+.project-item1 {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+.project-item2 {
+    margin-bottom: 1.5em;
+    text-align: right;
+}
+
+.myUL1 {
+    display: inline-block;
+    text-align: left;
+}
+
+.myUL2 {
+    display: inline-block;
+    text-align: left;
+}
+
+ul.mySKILL {
+    display: inline-block;
+    text-align: left;
+}
+ul.myCERT{
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0.5em 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
